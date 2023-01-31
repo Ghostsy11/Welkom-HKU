@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: black;
+
+}
+
+html {
+    color: azure;
+}
+
+#container {
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: inset 2px red;
+}
+
+#myInteraction {
+    padding: 10px;
+}
+
+/*top right bottom left*/

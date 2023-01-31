@@ -1,0 +1,65 @@
+html {
+    background-color: gray;
+}
+
+body {
+    background-color: white;
+    max-width: 1024px;
+    min-height: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav ul {
+    padding-left: 350px;
+}
+
+.minigame {
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid black;
+}
+
+.infobox {
+    display: inline-block;
+    width: 47%;
+    height: 220px;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.comments {
+    min-height: 45px;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foot {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.section {
+    display: inline-block;
+    width: 23%;
+    padding: 3px;
+    margin: 5px;
+    min-height: 304px;
+}

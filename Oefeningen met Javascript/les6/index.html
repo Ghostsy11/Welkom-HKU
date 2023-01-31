@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="header1"> meusem javascript</h1>
+    <p id="mkYellow">Maak achterground yellow Aub</p>
+    <p id="Green">groen</p>
+
+    <script>
+        const header1 = document.getElementById("header1")
+        const mkYellow = document.getElementById('mkYellow')
+        const Green = document.getElementById('Green')
+
+        header1.style.backgroundColor = "white"
+
+        header1.addEventListener('click', voeruitHeader1);
+        mkYellow.addEventListener('click', voeruitMKyellow);
+        Green.addEventListener('click', voeruitgReen);
+
+
+        function voeruitgReen() {
+            document.body.style.backgroundColor = "green";
+        }
+
+        function voeruitHeader1() {
+
+            header1.style.backgroundColor = "pink";
+            header1.style.color = "yellow";
+
+        }
+
+        function voeruitMKyellow() {
+            document.body.style.backgroundColor = "yellow";
+            document.body.style.color = "white";
+            header1.style.backgroundColor = "green";
+            header1.style.color = "black";
+        }
+
+
+    </script>
+
+</body>
+
+</html>
